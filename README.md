@@ -27,7 +27,10 @@ ng new <project-name>
 - Có thể thay đổi `port` mặc định nhờ tham số --port
 `ng serve --port 1234`
 
-Các Extensions cần cài trong VS Code: 
+- Các Extensions cần cài trong VS Code: 
+
 Angular Language Service
+
 Angular Essentials (Version 13)
+
 Angular Extension Pack
