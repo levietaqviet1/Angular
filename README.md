@@ -34,3 +34,12 @@ Angular Language Service
 Angular Essentials (Version 13)
 
 Angular Extension Pack
+
+- Tự tạo Components
+- 
+![image](https://github.com/levietaqviet1/Angular/assets/85175337/e05b2318-d810-4f34-8e14-5be40dec3e58)
+
+![image](https://github.com/levietaqviet1/Angular/assets/85175337/7f969ae7-16e4-4708-bac8-059c14564ba0)
+
+
+`ng generate component components/hi`  hoặc `ng g c components/hi`
