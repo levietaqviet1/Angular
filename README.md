@@ -2,7 +2,7 @@ Mở Command run:
 
 ![image](https://github.com/levietaqviet1/Angular/assets/85175337/efe81eec-6a51-4680-baa5-455a767ee42e)
 
-- Cài AngularCLI về:
+## Cài AngularCLI về:
 ```c 
 npm install -g @angular/cli
 ```
@@ -16,7 +16,7 @@ ng version
 ![image](https://github.com/levietaqviet1/Angular/assets/85175337/2b97994c-be74-4613-9d78-7b967761f240)
 
 
-- Tạo project: 
+## Tạo project: 
 ```c 
 ng new <project-name>
 ```
@@ -27,15 +27,17 @@ ng new <project-name>
 - Có thể thay đổi `port` mặc định nhờ tham số --port
 `ng serve --port 1234`
 
-- Các Extensions cần cài trong VS Code: 
+## Các Extensions cần cài trong VS Code: 
 
-Angular Language Service
+`Angular Language Service`
 
-Angular Essentials (Version 13)
+`Angular Essentials (Version 13)`
 
-Angular Extension Pack
+`Angular Extension Pack`
 
-- Tự tạo Components
+`Angular Support`
+
+## Tự tạo Components
 - 
 ![image](https://github.com/levietaqviet1/Angular/assets/85175337/e05b2318-d810-4f34-8e14-5be40dec3e58)
 
