@@ -1,3 +1,25 @@
+## Deploy web cần tạo thêm file web.config và điền text sau
+
+```html
+<configuration> 
+<system.webServer> 
+  <rewrite> 
+    <rules> 
+      <rule name="Angular Routes" stopProcessing="true"> 
+        <match url=".*" /> 
+        <conditions logicalGrouping="MatchAll"> 
+          <add input="{REQUEST_FILENAME}" matchType="IsFile" negate="true" /> 
+          <add input="{REQUEST_FILENAME}" matchType="IsDirectory" negate="true" /> 
+        </conditions> 
+        <action type="Rewrite" url="/index.html" /> 
+      </rule> 
+    </rules> 
+  </rewrite> 
+</system.webServer>
+</configuration>
+```
+
+
 Mở Command run: 
 
 ![image](https://github.com/levietaqviet1/Angular/assets/85175337/efe81eec-6a51-4680-baa5-455a767ee42e)
